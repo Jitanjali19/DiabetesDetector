@@ -8,11 +8,17 @@ Created on Mon Jul 28 22:55:25 2025
 import numpy as np
 import pickle
 import streamlit as st
+import os
+
+model_path = os.path.join(os.path.dirname(__file__), 'trained_model.pkl')
+with open(model_path, 'rb') as f:
+    loaded_model = pickle.load(f)
+
 
 
 #loaded_model = pickle.load(open('trained_model.sav', 'rb'))
-with open('trained_model.pkl', 'rb') as f:
-    loaded_model = pickle.load(f)
+#with open('trained_model.pkl', 'rb') as f:
+   # loaded_model = pickle.load(f)
 
 
 # creating a function for prediction
