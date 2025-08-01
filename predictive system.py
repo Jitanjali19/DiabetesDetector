@@ -10,7 +10,7 @@ import pickle
 
 #we give path where train_model.sav file exist by forward slash it shoul contain .sav file
 # loading the saved model
-loaded_model = pickle.load(open('trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.pkl', 'rb'))
 
 input_data = (5,166,72,19,175,25.8,0.587,51)
 
