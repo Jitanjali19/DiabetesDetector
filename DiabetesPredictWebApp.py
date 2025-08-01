@@ -15,7 +15,6 @@ with open(model_path, 'rb') as f:
     loaded_model = pickle.load(f)
 
 
-
 #loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 #with open('trained_model.pkl', 'rb') as f:
    # loaded_model = pickle.load(f)

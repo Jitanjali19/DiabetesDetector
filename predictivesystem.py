@@ -13,7 +13,7 @@ model_path = os.path.join(os.path.dirname(__file__), 'trained_model.pkl')
 with open(model_path, 'rb') as f:
     loaded_model = pickle.load(f)
 
-
+    
 #we give path where train_model.sav file exist by forward slash it shoul contain .sav file
 # loading the saved model
 #loaded_model = pickle.load(open('trained_model.pkl', 'rb'))
